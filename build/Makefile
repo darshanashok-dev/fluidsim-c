@@ -233,53 +233,53 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build.make _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
-fluid.o: fluid.c.o
-.PHONY : fluid.o
+src/fluid.o: src/fluid.c.o
+.PHONY : src/fluid.o
 
 # target to build an object file
-fluid.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FluidSim.dir/build.make CMakeFiles/FluidSim.dir/fluid.c.o
-.PHONY : fluid.c.o
+src/fluid.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FluidSim.dir/build.make CMakeFiles/FluidSim.dir/src/fluid.c.o
+.PHONY : src/fluid.c.o
 
-fluid.i: fluid.c.i
-.PHONY : fluid.i
+src/fluid.i: src/fluid.c.i
+.PHONY : src/fluid.i
 
 # target to preprocess a source file
-fluid.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FluidSim.dir/build.make CMakeFiles/FluidSim.dir/fluid.c.i
-.PHONY : fluid.c.i
+src/fluid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FluidSim.dir/build.make CMakeFiles/FluidSim.dir/src/fluid.c.i
+.PHONY : src/fluid.c.i
 
-fluid.s: fluid.c.s
-.PHONY : fluid.s
+src/fluid.s: src/fluid.c.s
+.PHONY : src/fluid.s
 
 # target to generate assembly for a file
-fluid.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FluidSim.dir/build.make CMakeFiles/FluidSim.dir/fluid.c.s
-.PHONY : fluid.c.s
+src/fluid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FluidSim.dir/build.make CMakeFiles/FluidSim.dir/src/fluid.c.s
+.PHONY : src/fluid.c.s
 
-main.o: main.c.o
-.PHONY : main.o
+src/main.o: src/main.c.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FluidSim.dir/build.make CMakeFiles/FluidSim.dir/main.c.o
-.PHONY : main.c.o
+src/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FluidSim.dir/build.make CMakeFiles/FluidSim.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+src/main.i: src/main.c.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FluidSim.dir/build.make CMakeFiles/FluidSim.dir/main.c.i
-.PHONY : main.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FluidSim.dir/build.make CMakeFiles/FluidSim.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+src/main.s: src/main.c.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FluidSim.dir/build.make CMakeFiles/FluidSim.dir/main.c.s
-.PHONY : main.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FluidSim.dir/build.make CMakeFiles/FluidSim.dir/src/main.c.s
+.PHONY : src/main.c.s
 
 # Help Target
 help:
@@ -299,12 +299,12 @@ help:
 	@echo "... FluidSim"
 	@echo "... glfw"
 	@echo "... raylib"
-	@echo "... fluid.o"
-	@echo "... fluid.i"
-	@echo "... fluid.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/fluid.o"
+	@echo "... src/fluid.i"
+	@echo "... src/fluid.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

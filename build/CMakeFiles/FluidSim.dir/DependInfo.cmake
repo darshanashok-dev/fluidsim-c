@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/da/c-project/fluid.c" "CMakeFiles/FluidSim.dir/fluid.c.o" "gcc" "CMakeFiles/FluidSim.dir/fluid.c.o.d"
-  "/home/da/c-project/main.c" "CMakeFiles/FluidSim.dir/main.c.o" "gcc" "CMakeFiles/FluidSim.dir/main.c.o.d"
+  "/home/da/c-project/src/fluid.c" "CMakeFiles/FluidSim.dir/src/fluid.c.o" "gcc" "CMakeFiles/FluidSim.dir/src/fluid.c.o.d"
+  "/home/da/c-project/src/main.c" "CMakeFiles/FluidSim.dir/src/main.c.o" "gcc" "CMakeFiles/FluidSim.dir/src/main.c.o.d"
   "" "FluidSim" "gcc" "CMakeFiles/FluidSim.dir/link.d"
   )
 

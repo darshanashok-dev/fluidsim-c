@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FluidSim.dir/link.d"
-  "CMakeFiles/FluidSim.dir/fluid.c.o"
-  "CMakeFiles/FluidSim.dir/fluid.c.o.d"
-  "CMakeFiles/FluidSim.dir/main.c.o"
-  "CMakeFiles/FluidSim.dir/main.c.o.d"
+  "CMakeFiles/FluidSim.dir/src/fluid.c.o"
+  "CMakeFiles/FluidSim.dir/src/fluid.c.o.d"
+  "CMakeFiles/FluidSim.dir/src/main.c.o"
+  "CMakeFiles/FluidSim.dir/src/main.c.o.d"
   "FluidSim"
   "FluidSim.pdb"
 )

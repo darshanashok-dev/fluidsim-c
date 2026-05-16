@@ -2,8 +2,8 @@ FluidSim: \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o \
   /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o \
-  CMakeFiles/FluidSim.dir/main.c.o \
-  CMakeFiles/FluidSim.dir/fluid.c.o \
+  CMakeFiles/FluidSim.dir/src/main.c.o \
+  CMakeFiles/FluidSim.dir/src/fluid.c.o \
   _deps/raylib-build/raylib/libraylib.a \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/libpthread.a \
   /usr/lib64/libOpenGL.so \
@@ -72,9 +72,9 @@ FluidSim: \
 
 /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o:
 
-CMakeFiles/FluidSim.dir/main.c.o:
+CMakeFiles/FluidSim.dir/src/main.c.o:
 
-CMakeFiles/FluidSim.dir/fluid.c.o:
+CMakeFiles/FluidSim.dir/src/fluid.c.o:
 
 _deps/raylib-build/raylib/libraylib.a:
 

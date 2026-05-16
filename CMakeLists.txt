@@ -19,5 +19,11 @@ FetchContent_MakeAvailable(raylib)
 find_package(OpenMP REQUIRED)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3 -ffast-math -march=native")
-add_executable(FluidSim main.c fluid.c)
+
+add_executable(FluidSim 
+    src/main.c 
+    src/fluid.c
+)
+
+target_include_directories(FluidSim PRIVATE include)
 target_link_libraries(FluidSim PRIVATE raylib OpenMP::OpenMP_C)

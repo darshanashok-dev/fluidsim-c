@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
 
-C_INCLUDES = -I/home/da/c-project/build/_deps/raylib-src/src
+C_INCLUDES = -I/home/da/c-project/include -I/home/da/c-project/build/_deps/raylib-src/src
 
 C_FLAGS =  -O3 -ffast-math -march=native -std=gnu99 -fopenmp
 

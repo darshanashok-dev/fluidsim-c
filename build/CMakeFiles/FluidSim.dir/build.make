@@ -72,44 +72,44 @@ include CMakeFiles/FluidSim.dir/flags.make
 CMakeFiles/FluidSim.dir/codegen:
 .PHONY : CMakeFiles/FluidSim.dir/codegen
 
-CMakeFiles/FluidSim.dir/main.c.o: CMakeFiles/FluidSim.dir/flags.make
-CMakeFiles/FluidSim.dir/main.c.o: /home/da/c-project/main.c
-CMakeFiles/FluidSim.dir/main.c.o: CMakeFiles/FluidSim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/da/c-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/FluidSim.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FluidSim.dir/main.c.o -MF CMakeFiles/FluidSim.dir/main.c.o.d -o CMakeFiles/FluidSim.dir/main.c.o -c /home/da/c-project/main.c
+CMakeFiles/FluidSim.dir/src/main.c.o: CMakeFiles/FluidSim.dir/flags.make
+CMakeFiles/FluidSim.dir/src/main.c.o: /home/da/c-project/src/main.c
+CMakeFiles/FluidSim.dir/src/main.c.o: CMakeFiles/FluidSim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/da/c-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/FluidSim.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FluidSim.dir/src/main.c.o -MF CMakeFiles/FluidSim.dir/src/main.c.o.d -o CMakeFiles/FluidSim.dir/src/main.c.o -c /home/da/c-project/src/main.c
 
-CMakeFiles/FluidSim.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FluidSim.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/da/c-project/main.c > CMakeFiles/FluidSim.dir/main.c.i
+CMakeFiles/FluidSim.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FluidSim.dir/src/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/da/c-project/src/main.c > CMakeFiles/FluidSim.dir/src/main.c.i
 
-CMakeFiles/FluidSim.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FluidSim.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/da/c-project/main.c -o CMakeFiles/FluidSim.dir/main.c.s
+CMakeFiles/FluidSim.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FluidSim.dir/src/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/da/c-project/src/main.c -o CMakeFiles/FluidSim.dir/src/main.c.s
 
-CMakeFiles/FluidSim.dir/fluid.c.o: CMakeFiles/FluidSim.dir/flags.make
-CMakeFiles/FluidSim.dir/fluid.c.o: /home/da/c-project/fluid.c
-CMakeFiles/FluidSim.dir/fluid.c.o: CMakeFiles/FluidSim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/da/c-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/FluidSim.dir/fluid.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FluidSim.dir/fluid.c.o -MF CMakeFiles/FluidSim.dir/fluid.c.o.d -o CMakeFiles/FluidSim.dir/fluid.c.o -c /home/da/c-project/fluid.c
+CMakeFiles/FluidSim.dir/src/fluid.c.o: CMakeFiles/FluidSim.dir/flags.make
+CMakeFiles/FluidSim.dir/src/fluid.c.o: /home/da/c-project/src/fluid.c
+CMakeFiles/FluidSim.dir/src/fluid.c.o: CMakeFiles/FluidSim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/da/c-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/FluidSim.dir/src/fluid.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FluidSim.dir/src/fluid.c.o -MF CMakeFiles/FluidSim.dir/src/fluid.c.o.d -o CMakeFiles/FluidSim.dir/src/fluid.c.o -c /home/da/c-project/src/fluid.c
 
-CMakeFiles/FluidSim.dir/fluid.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FluidSim.dir/fluid.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/da/c-project/fluid.c > CMakeFiles/FluidSim.dir/fluid.c.i
+CMakeFiles/FluidSim.dir/src/fluid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FluidSim.dir/src/fluid.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/da/c-project/src/fluid.c > CMakeFiles/FluidSim.dir/src/fluid.c.i
 
-CMakeFiles/FluidSim.dir/fluid.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FluidSim.dir/fluid.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/da/c-project/fluid.c -o CMakeFiles/FluidSim.dir/fluid.c.s
+CMakeFiles/FluidSim.dir/src/fluid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FluidSim.dir/src/fluid.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/da/c-project/src/fluid.c -o CMakeFiles/FluidSim.dir/src/fluid.c.s
 
 # Object files for target FluidSim
 FluidSim_OBJECTS = \
-"CMakeFiles/FluidSim.dir/main.c.o" \
-"CMakeFiles/FluidSim.dir/fluid.c.o"
+"CMakeFiles/FluidSim.dir/src/main.c.o" \
+"CMakeFiles/FluidSim.dir/src/fluid.c.o"
 
 # External object files for target FluidSim
 FluidSim_EXTERNAL_OBJECTS =
 
-FluidSim: CMakeFiles/FluidSim.dir/main.c.o
-FluidSim: CMakeFiles/FluidSim.dir/fluid.c.o
+FluidSim: CMakeFiles/FluidSim.dir/src/main.c.o
+FluidSim: CMakeFiles/FluidSim.dir/src/fluid.c.o
 FluidSim: CMakeFiles/FluidSim.dir/build.make
 FluidSim: CMakeFiles/FluidSim.dir/compiler_depend.ts
 FluidSim: _deps/raylib-build/raylib/libraylib.a
