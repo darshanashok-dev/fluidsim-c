@@ -6,7 +6,7 @@ Based on Jos Stam's "Stable Fluids" method, this project focuses on providing a 
 
 <img width="804" height="799" alt="image" src="https://github.com/user-attachments/assets/12c8da88-56c2-46db-acd1-9d4ccde9d845" />
 
-<img width="804" height="799" alt="1778916684266253451" src="https://github.com/user-attachments/assets/4545f2f1-1db6-4576-8475-666d63f52c04" />
+<img width="803" height="798" alt="1778916786410136941" src="https://github.com/user-attachments/assets/dc5149c2-542e-4f83-8b54-f64cd177b478" />
 
 
 
