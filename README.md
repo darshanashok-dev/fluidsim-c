@@ -3,9 +3,8 @@
 A high-performance, real-time 2D fluid simulation built with C, [raylib](https://www.raylib.com/), and [OpenMP](https://www.openmp.org/).
 
 Based on Jos Stam's "Stable Fluids" method, this project focuses on providing a smooth, interactive experience with vibrant visuals and multi-threaded performance.
+<img width="804" height="799" alt="image" src="https://github.com/user-attachments/assets/12c8da88-56c2-46db-acd1-9d4ccde9d845" />
 
-![Fluid Simulation Preview](https://raw.githubusercontent.com/raysan5/raylib/master/logo/raylib_logo_256x256.png) *<img width="804" height="799" alt="image" src="https://github.com/user-attachments/assets/12c8da88-56c2-46db-acd1-9d4ccde9d845" />
-*
 
 ##  Features
 
