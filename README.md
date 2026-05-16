@@ -1,4 +1,4 @@
-# FluidSim 🌊
+# FluidSim 
 
 A high-performance, real-time 2D fluid simulation built with C, [raylib](https://www.raylib.com/), and [OpenMP](https://www.openmp.org/).
 
@@ -6,7 +6,7 @@ Based on Jos Stam's "Stable Fluids" method, this project focuses on providing a 
 
 ![Fluid Simulation Preview](https://raw.githubusercontent.com/raysan5/raylib/master/logo/raylib_logo_256x256.png) *(Placeholder for project screenshot)*
 
-## ✨ Features
+##  Features
 
 - **Real-time Interaction**: Add fluid density and velocity dynamically using your mouse.
 - **Multi-threaded Solver**: Powered by OpenMP for high-resolution simulations on multi-core CPUs.
@@ -14,7 +14,7 @@ Based on Jos Stam's "Stable Fluids" method, this project focuses on providing a 
 - **Physics-based Simulation**: Includes diffusion, viscosity, and obstacle interaction.
 - **Vibrant Aesthetics**: Smooth color gradients and dissipation effects for a "glowy" look.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -49,7 +49,7 @@ You'll need the following installed on your system:
    ./FluidSim
    ```
 
-## 🎮 Controls
+##  Controls
 
 | Key / Mouse | Action |
 |-------------|--------|
@@ -61,16 +61,16 @@ You'll need the following installed on your system:
 | **Key R** | Reset the simulation |
 | **Esc** | Exit |
 
-## 🛠️ Performance Tips
+##  Performance Tips
 
 - The simulation uses `-O3 -ffast-math -march=native` flags for maximum performance.
 - Ensure your environment allows OpenMP to use all available cores for the best experience at 256x256 resolution.
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Jos Stam for the groundbreaking "Stable Fluids" algorithm.
 - [raylib](https://github.com/raysan5/raylib) for the excellent graphics library.
